@@ -4,12 +4,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "start": "node ./dist/server/entry.mjs",
-    "db:init": "node scripts/init-db.mjs",
-    "db:seed": "node scripts/seed-db.mjs"
+    "dev": "bun --bun astro dev",
+    "build": "bun --bun astro build",
+    "preview": "bun --bun astro preview",
+    "start": "bun ./dist/server/entry.mjs",
+    "db:init": "bun scripts/init-db.mjs",
+    "db:seed": "bun scripts/seed-db.mjs"
   },
   "dependencies": {
     "@astrojs/node": "^11.1.5",
